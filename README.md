@@ -63,14 +63,34 @@ _Las herramientas utilizadas para el desarrollo del trabajo fueron:_
    align="center"><img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" width="64" height="64" margin-right: 20px><img src="https://cdn.cdo.mit.edu/wp-content/uploads/sites/67/2021/01/0_zuhXdNAIUoxEem4-.png" width="80" height="64" ><img src="https://codeforces.org/s/45303/images/codeforces-sponsored-by-ton.png" width="80" height="64" ><img src="https://img.atcoder.jp/assets/atcoder.png" width="80" height="64" ><img src="https://onlinejudge.org/templates/hm_yaml_2_5/img/ojlogo2.svg.png" width="80" height="64" ><img src="https://www.comparasoftware.com/wp-content/uploads/2018/08/logovisualstudiocode.png" width="80" height="64" ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IntelliJ_IDEA_Icon.svg/250px-IntelliJ_IDEA_Icon.svg.png" width="80" height="64" ><img src="https://allpcworld.com/wp-content/uploads/2016/08/netbeans-free-download.png" width="80" height="64" >
 </p>
 
+## Link Documentacion
+_Puedes visualizar la documentacion en el siguiente enlace:_
+* [Estructuras de Datos Avanzadas]()
+
+## Autores
+* CARLOS DUVAN LABRADOR H - 1151808
+* JUAN DIEGO CELIS BLANCO - 1151876
+* MARLON STIVEN PRADO R   - 1151914
+* DOUGLAS ARLEY ALVAREZ O - 1151923
+* SAID FERNANDO LOPEZ G   - 1151925
+*
+*
+*
+
+
+## Conclusiones
 
 
 
 
-
-
-
-
-
-
-
+## Bibliografia
+* Ejercicio tomado de tomado de la plataforma web <b> [LeetCode](https://leetcode.com/problems/complete-binary-tree-inserter/).</b>
+* Ejercicio tomado de tomado de la plataforma web <b> [LeetCode](https://leetcode.com/problems/binary-tree-inorder-traversal/).</b>
+* Ejercicio tomado de tomado de la plataforma web <b> [LeetCode](https://leetcode.com/problems/validate-binary-search-tree/).</b>
+* Ejercicio tomado de tomado de la plataforma web <b> [LeetCode](https://leetcode.com/problems/minimum-height-trees/).</b>
+* Ejercicio tomado de tomado de la plataforma web <b> [LeetCode](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/).</b>
+* Ejercicio tomado de tomado de la plataforma web <b> [LeetCode](https://leetcode.com/problems/find-if-path-exists-in-graph/).</b>
+* Ejercicio tomado de tomado de la plataforma web <b> [LeetCode](https://leetcode.com/problems/relative-ranks/).</b>
+* Ejercicio tomado de tomado de la plataforma web <b> [CodeForces](https://codeforces.com/problemset/problem/681/C).</b>
+* Ejercicio tomado de tomado de la plataforma web <b> [AtCoder](https://atcoder.jp/contests/abc240/tasks/abc240_b?lang=en).</b>
+* Ejercicio tomado de tomado de la plataforma web <b> [OnlineJudge](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1998).</b>
