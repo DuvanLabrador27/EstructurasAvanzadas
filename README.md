@@ -60,8 +60,7 @@ _Las herramientas utilizadas para el desarrollo del trabajo fueron:_
 * [Netbeans](https://netbeans.apache.org) - Entorno de Desarrollo
 
 <p
-   align="center"><img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" width="64" height="64" margin-right: 20px><img src="[https://cdn.cdo.mit.edu/wp-content/uploads/sites/67/2021/01/0_zuhXdNAIUoxEem4-.png](https://cdn.cdo.mit.edu/wp-content/uploads/sites/67/2021/01/0_zuhXdNAIUoxEem4-.png)" width="68" height="64" >
-   <img src="https://www.comparasoftware.com/wp-content/uploads/2018/08/logovisualstudiocode.png" width="80" height="64" ><img src="https://www.comparasoftware.com/wp-content/uploads/2018/08/logovisualstudiocode.png" width="80" height="64" ><img src="https://www.comparasoftware.com/wp-content/uploads/2018/08/logovisualstudiocode.png" width="80" height="64" >
+   align="center"><img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" width="64" height="64" margin-right: 20px><img src="https://cdn.cdo.mit.edu/wp-content/uploads/sites/67/2021/01/0_zuhXdNAIUoxEem4-.png" width="80" height="64" ><img src="https://codeforces.org/s/45303/images/codeforces-sponsored-by-ton.png" width="80" height="64" ><img src="https://img.atcoder.jp/assets/atcoder.png" width="80" height="64" ><img src="https://onlinejudge.org/templates/hm_yaml_2_5/img/ojlogo2.svg.png" width="80" height="64" ><img src="https://www.comparasoftware.com/wp-content/uploads/2018/08/logovisualstudiocode.png" width="80" height="64" ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IntelliJ_IDEA_Icon.svg/250px-IntelliJ_IDEA_Icon.svg.png" width="80" height="64" ><img src="https://allpcworld.com/wp-content/uploads/2016/08/netbeans-free-download.png" width="80" height="64" >
 </p>
 
 
