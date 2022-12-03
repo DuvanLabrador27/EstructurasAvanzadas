@@ -93,6 +93,40 @@ lo que hace la solución en pocas palabras es recorrer el grafo de manera recurs
 
 
 * <b> Count Distinct Integers </b>
+Este problema narra que dado un número de n donde n es la cantidad de un conjunto de números, se debe imprimir la cantidad de números distintos del conjunto de número de entrada, es decir, se debe enviar como salida el conteo de números distintos dentro de un conjunto de datos.
+
+Ejemplo 1:
+ Entrada
+	<b> Cantidad:  6 </b>
+	<b> Numeros: 1 4 1 2 2 1 </b>
+	<b> Salida: 3 </b>
+
+Ejemplo 2:
+ Entrada
+ 	<b> Cantidad:  4 </b>
+	<b> Numeros: 1 1 2 1 </b>
+	<b> Salida: 2 </b>
+
+Viendo el enunciado respecto a las salidas esperadas, ¿cómo se puede resolver este problema?
+
+ Hash Set al Rescate
+
+HashSet es una colección de estructura de datos de Set Interface, cuya característica destacada son:
+HashSet no permite valores duplicados
+HashSet no dispone de un criterio de ordenación para los valores almacenados
+
+ ¿Cual es la ventaja?
+Usando HashSet solo basta con preguntar cada uno de los elementos de la lista o entrada de datos que nos llegue para que únicamente almacene aquellos datos que no sean repetidos dentro de la colección
+
+
+
+
+
+
+
+
+
+
 
 
 * <b> Exact Sum </b>
