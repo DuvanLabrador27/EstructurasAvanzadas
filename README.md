@@ -59,9 +59,35 @@ _Se anexa el metodo utilizado en VSCODE y caso de prueba aceptado:_
  <img src="https://github.com/DuvanLabrador27/EstructurasAvanzadas/blob/main/img/code.png" width="500" height="700" margin-right: 20px><br>
  
 </p>
+<b> Caso de prueba TRUE </b><br>
+-Para este primer caso de prueba TRUE y válido cumpliendo con los requisitos anteriores, se muestra un gráfico en donde se evidencia el porqué este nos da True como respuesta.<br>
 
+-Tenemos que:<br>
+Input: root = [2,1,3]<br>
+Output: true<br>
+<p align="center">
+ <img src="https://github.com/DuvanLabrador27/EstructurasAvanzadas/blob/main/img/CASO1_ACCEPTED.png" width="1000" height="700" margin-right: 20px><br>
+ 
+</p>
+<p align="center">
+ <img src="https://github.com/DuvanLabrador27/EstructurasAvanzadas/blob/main/img/c1.png" width="500" height="700" margin-right: 20px><br>
+ 
+</p>
+<b> Caso de prueba FALSE </b><br>
+-Para este segundo caso de prueba FALSE, se muestra un gráfico en donde se evidencia el porqué este nos da False como respuesta.<br>
 
-
+-Tenemos que:<br>
+Input: root = [5,1,3,null,null,4,10]<br>
+Output: false<br>
+<p align="center">
+ <img src="https://github.com/DuvanLabrador27/EstructurasAvanzadas/blob/main/img/CAS2_ACCEPTED.png" width=800" height="700" margin-right: 20px><br>
+ 
+</p>
+</p>
+<p align="center">
+ <img src="https://github.com/DuvanLabrador27/EstructurasAvanzadas/blob/main/img/c2.png" width="500" height="700" margin-right: 20px><br>
+ 
+</p>
 
 * <b> Minimum Height Trees </b>
 
@@ -85,26 +111,6 @@ Se garantiza que la entrada dada sea un árbol y no habrá bordes repetidos.
 Solucion LeetCode:
 
 [![1.png](https://i.postimg.cc/FswT1Qgh/1.png)](https://postimg.cc/vcLrSkNK)
-
-Una forma de encontrar el nodo medio del árbol es comenzar desde cada uno de los nodos hoja y eliminarlos iterativamente hasta que quede con 1 o 2 nodos finales que serán los nodos medios.
-
-Podemos encontrar los nodos hoja en cada iteración utilizando el grado interior del nodo, es decir, el número de aristas que están conectadas al nodo.
-Un nodo hoja tendrá un grado de entrada de 1.
-
-El algoritmo utilizado será similar a BFS. En cada nivel de BFS, sacaremos el nodo de hoja y empujaremos los nuevos nodos que se convierten en hojas después de la eliminación de los nodos de hoja en la iteración actual.
-
-Esto continuará hasta que nos queden solo 1 o 2 nodos, que serían nuestros nodos intermedios finales que forman los MHT.
-
-Ejemplo:
-
-[![2.png](https://i.postimg.cc/VsTD7bZY/2.png)](https://postimg.cc/4n66ynTM)
-[![3.png](https://i.postimg.cc/nzrG2Hvj/3.png)](https://postimg.cc/ygqRYCps)
-
-
-
-
-
-
 
 * <b> Find a Corresponding Node of a Binary Tree in a Clone of That Tree </b>
 
@@ -214,21 +220,7 @@ Error: Si se envia una entrada vacía
 
 
 
-* <b> Relative Ranks </b>
-
-
-![codigo](https://user-images.githubusercontent.com/101369022/205416658-78bf09ae-f841-4d01-af0f-5579c9f514ec.png)
-
-
-Explicación:
-
-Principalmente lo que se realiza en el código, de cierta manera se guardan los números y el índice. De tal manera que ordene los resultados y arroje un orden de posiciones y su respectiva premiación. 
-El tamaño del arreglo puede ser mayor o igual a 1 de tal manera que pueden haber 100 competidores y transformará a un String el cual marcará el de mayor puntaje ( Medalla de Oro, Plata y Bronce). Lo demás lo pondrá en Enteros con su respectivo orden.
-
-Entonces, se explicará los casos de prueba:
-
-
-![Casos](https://user-images.githubusercontent.com/101369022/205416672-0e34dff3-b8e1-46ae-a8b8-2cfdd5bc3792.png)
+* <b> Exact Sum </b>
 
 
 
