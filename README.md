@@ -53,6 +53,26 @@ Recalquemos la definición de los siguientes métodos:
 
 * <b> Find a Corresponding Node of a Binary Tree in a Clone of That Tree </b>
 
+<Descripción>
+
+Dados dos árboles binarios original y cloned dada una referencia a un nodo target en el árbol original.
+El cloned árbol es una copia del árbol original.
+Devuelve una referencia al mismo nodo en el cloned árbol.
+Tenga en cuenta que no puede cambiar ninguno de los dos árboles o el target nodo y la respuesta debe ser una referencia a un nodo en el cloned árbol.
+
+<Restricciones>
+
+El número de nodos en tree está en el rango .[1, 104]
+Los valores de los nodos de tree son únicos.
+targetnode es un nodo del original árbol y no lo es null.
+
+<Solucion LeetCode>
+
+[![1.png](https://i.postimg.cc/Jn3f5zx3/1.png)](https://postimg.cc/G82gcrZ9)
+
+
+
+
 
 * <b> Find if Path Exists in Graph </b>
 Este problema nos daba como entrada un arreglos de arreglos donde estos últimos contienen parejas de números las cuales serán nuestros nodos, contaremos con un nodo inicio y un nodo destino los cuales serán números; teniendo en cuenta cuenta que nuestro inicio será 0 y nuestro destino será cualquier número del array que mayor a 0, donde secuencialmente tendremos que seguir un camino desde nuestro inicio hasta el destino, por ejemplo:
