@@ -194,7 +194,21 @@ Error: Si se envia una entrada vacía
 
 
 
-* <b> Exact Sum </b>
+* <b> Relative Ranks </b>
+
+
+![codigo](https://user-images.githubusercontent.com/101369022/205416658-78bf09ae-f841-4d01-af0f-5579c9f514ec.png)
+
+
+Explicación:
+
+Principalmente lo que se realiza en el código, de cierta manera se guardan los números y el índice. De tal manera que ordene los resultados y arroje un orden de posiciones y su respectiva premiación. 
+El tamaño del arreglo puede ser mayor o igual a 1 de tal manera que pueden haber 100 competidores y transformará a un String el cual marcará el de mayor puntaje ( Medalla de Oro, Plata y Bronce). Lo demás lo pondrá en Enteros con su respectivo orden.
+
+Entonces, se explicará los casos de prueba:
+
+
+![Casos](https://user-images.githubusercontent.com/101369022/205416672-0e34dff3-b8e1-46ae-a8b8-2cfdd5bc3792.png)
 
 
 
