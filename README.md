@@ -13,7 +13,10 @@
 ## Ejercicios
 _Los ejercicios fueron extraidos de plataformas como LeetCode, CodeForces, AtCoder y Online Judge_
 * <b> Complete Binary Tree Inserter </b>
+¿Qué es un Árbol Binario Completo?
+Un árbol binario completo es aquel donde todo sus nodos terminales  u hojas tiene la misma altura, además que en todos sus niveles, (a excepción del último nivel) están completamente llenos, es decir, tiene sus 2 hijos nodo, un ejemplo de un árbol binario completo es el siguiente:
 
+[!1.png]([![1.png](https://i.postimg.cc/htMS8MCZ/1.png)](https://postimg.cc/bZDcp0f1))
 
 
 * <b> Binary Tree Inorder Traversal </b>
