@@ -111,6 +111,24 @@ Se garantiza que la entrada dada sea un árbol y no habrá bordes repetidos.
 Solucion LeetCode:
 
 [![1.png](https://i.postimg.cc/FswT1Qgh/1.png)](https://postimg.cc/vcLrSkNK)
+														 
+Una forma de encontrar el nodo medio del árbol es comenzar desde cada uno de los nodos hoja y eliminarlos iterativamente hasta que quede con 1 o 2 nodos finales que serán los nodos medios.
+														 
+Podemos encontrar los nodos hoja en cada iteración utilizando el grado interior del nodo, es decir, el número de aristas que están conectadas al nodo.
+Un nodo hoja tendrá un grado de entrada de 1.
+														 
+El algoritmo utilizado será similar a BFS. En cada nivel de BFS, sacaremos el nodo de hoja y empujaremos los nuevos nodos que se convierten en hojas después de la eliminación de los nodos de hoja en la iteración actual.
+														 
+Esto continuará hasta que nos queden solo 1 o 2 nodos, que serían nuestros nodos intermedios finales que forman los MHT.
+Ejemplo:
+
+[![2.png](https://i.postimg.cc/VsTD7bZY/2.png)](https://postimg.cc/4n66ynTM)
+[![3.png](https://i.postimg.cc/nzrG2Hvj/3.png)](https://postimg.cc/ygqRYCps)	
+														 
+														 
+														 
+														 
+														 
 
 * <b> Find a Corresponding Node of a Binary Tree in a Clone of That Tree </b>
 
@@ -130,19 +148,7 @@ targetnode es un nodo del original árbol y no lo es null.
 Solucion LeetCode:
 
 [![1.png](https://i.postimg.cc/Jn3f5zx3/1.png)](https://postimg.cc/G82gcrZ9)
-						
-Una forma de encontrar el nodo medio del árbol es comenzar desde cada uno de los nodos hoja y eliminarlos iterativamente hasta que quede con 1 o 2 nodos finales que serán los nodos medios.
-														 
-Podemos encontrar los nodos hoja en cada iteración utilizando el grado interior del nodo, es decir, el número de aristas que están conectadas al nodo.
-Un nodo hoja tendrá un grado de entrada de 1.
-														 
-El algoritmo utilizado será similar a BFS. En cada nivel de BFS, sacaremos el nodo de hoja y empujaremos los nuevos nodos que se convierten en hojas después de la eliminación de los nodos de hoja en la iteración actual.
-														 
-Esto continuará hasta que nos queden solo 1 o 2 nodos, que serían nuestros nodos intermedios finales que forman los MHT.
-Ejemplo:
-
-[![2.png](https://i.postimg.cc/VsTD7bZY/2.png)](https://postimg.cc/4n66ynTM)
-[![3.png](https://i.postimg.cc/nzrG2Hvj/3.png)](https://postimg.cc/ygqRYCps)														 
+																				 
 														 
 														 
 * <b> Find if Path Exists in Graph </b>
