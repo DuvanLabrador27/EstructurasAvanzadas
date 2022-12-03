@@ -96,16 +96,16 @@ lo que hace la solución en pocas palabras es recorrer el grafo de manera recurs
 Este problema narra que dado un número de n donde n es la cantidad de un conjunto de números, se debe imprimir la cantidad de números distintos del conjunto de número de entrada, es decir, se debe enviar como salida el conteo de números distintos dentro de un conjunto de datos.
 
 Ejemplo 1:
- Entrada
-	<b> Cantidad:  6 </b>
-	<b> Numeros: 1 4 1 2 2 1 </b>
-	<b> Salida: 3 </b>
+* Entrada
+* * <b> Cantidad:  6 </b>
+* * <b> Numeros: 1 4 1 2 2 1 </b>
+* * <b> Salida: 3 </b>
 
 Ejemplo 2:
- Entrada
- 	<b> Cantidad:  4 </b>
-	<b> Numeros: 1 1 2 1 </b>
-	<b> Salida: 2 </b>
+* Entrada
+* * <b> Cantidad:  4 </b>
+* * <b> Numeros: 1 1 2 1 </b>
+* * <b> Salida: 2 </b>
 
 Viendo el enunciado respecto a las salidas esperadas, ¿cómo se puede resolver este problema?
 
@@ -119,11 +119,21 @@ HashSet no dispone de un criterio de ordenación para los valores almacenados
 Usando HashSet solo basta con preguntar cada uno de los elementos de la lista o entrada de datos que nos llegue para que únicamente almacene aquellos datos que no sean repetidos dentro de la colección
 
 
+* * Código de Java respecto a la solución del Ejercicio
+
+[![1.jpg](https://i.postimg.cc/MKpD9pt6/1.jpg)](https://postimg.cc/qgWyR09S)
 
 
+Hay que tener en cuenta que una vez agregado cada uno de los datos respecto al recorrido de este, se imprime como resultado el tamaño (Cantidad de datos) de la estructura HashSet.
 
+Criterios de Aceptación
 
-
+Para este Ejercicio, se define las siguientes restricciones:
+Ell total de elementos respecto a los números que se desea contar debe ser 1≤N≤1000
+Cada uno de los números de esta secuencia debe cumplir que su tamaño sea mayor o igual a 1 e inferior a 10-9.
+Todos los valores de las entrada debe ser datos enteros
+Desborde: Serán todos aquellos entradas que incumpla los criterios de aceptación-
+Error: Si se envia una entrada vacía
 
 
 
