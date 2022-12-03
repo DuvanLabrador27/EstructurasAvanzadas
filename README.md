@@ -49,24 +49,43 @@ Recalquemos la definición de los siguientes métodos:
 
 * <b> Minimum Height Trees </b>
 
+Un árbol es un gráfico no dirigido en el que dos vértices cualesquiera están conectados  exactamente por  un camino. En otras palabras, cualquier gráfico conexo sin ciclos simples es un árbol.
 
+Dado un árbol de nnodos etiquetados de 0a n - 1, y una matriz de  n - 1 edgesdonde indica que hay un borde no dirigido entre los dos nodos  y  en el árbol, puede elegir cualquier nodo del árbol como raíz. Cuando selecciona un nodo como raíz, el árbol de resultados tiene altura . Entre todos los árboles enraizados posibles, aquellos con altura mínima (ie ) se denominan árboles de altura mínima (MHT).edges[i] = [ai, bi]aibixhmin(h)
+
+Devuelve una lista de las etiquetas raíz de todos los MHT . Puede devolver la respuesta en cualquier orden .
+
+La altura de un árbol con raíces es el número de aristas en el camino descendente más largo entre la raíz y una hoja.
+
+Restricciones: 
+
+1 <= n <= 2 * 104
+edges.length == n - 1
+0 <= ai, bi < n
+ai != bi
+Todos los pares son distintos.(ai, bi)
+Se garantiza que la entrada dada sea un árbol y no habrá bordes repetidos.
+
+Solucion LeetCode:
+
+[![1.png](https://i.postimg.cc/FswT1Qgh/1.png)](https://postimg.cc/vcLrSkNK)
 
 * <b> Find a Corresponding Node of a Binary Tree in a Clone of That Tree </b>
 
-<Descripción>
+Descripción:
 
 Dados dos árboles binarios original y cloned dada una referencia a un nodo target en el árbol original.
 El cloned árbol es una copia del árbol original.
 Devuelve una referencia al mismo nodo en el cloned árbol.
 Tenga en cuenta que no puede cambiar ninguno de los dos árboles o el target nodo y la respuesta debe ser una referencia a un nodo en el cloned árbol.
 
-<Restricciones>
+Restricciones:
 
 El número de nodos en tree está en el rango .[1, 104]
 Los valores de los nodos de tree son únicos.
 targetnode es un nodo del original árbol y no lo es null.
 
-<Solucion LeetCode>
+Solucion LeetCode:
 
 [![1.png](https://i.postimg.cc/Jn3f5zx3/1.png)](https://postimg.cc/G82gcrZ9)
 
