@@ -43,7 +43,23 @@ Recalquemos la definición de los siguientes métodos:
 
 
 
-* <b> Validate Binary Search Tree </b>
+* <b> Validate Binary Search Tree </b><br>
+-Para el desarrollo de este ejercicio debemos tener en cuenta que un árbol(BST) es válido si: 
+
+1. El árbol debe estar ordenado, porque estamos trabajando con búsqueda binaria<br>
+2. La izquierda de un subárbol de un nodo contiene solo claves menores que la raíz<br>
+3. La derecha de un subárbol de un nodo contiene solo claves mayores que la raíz<br>
+
+-Restricciones:<br>
+1. Debe estar en el rango [1,10^4]<br>
+<b>SOLUCIÓN EN LEETCODE</b>
+
+_Se anexa el metodo utilizado en VSCODE y caso de prueba aceptado:_
+<p align="center">
+ <img src="https://github.com/DuvanLabrador27/OrdenarEnterosPorPotencia/blob/main/img/code2.png" width="500" height="700" margin-right: 20px><br>
+ <img src="https://github.com/DuvanLabrador27/OrdenarEnterosPorPotencia/blob/main/img/caso2.png" width="500" height="350" margin-right: 20px>
+</p>
+
 
 
 
