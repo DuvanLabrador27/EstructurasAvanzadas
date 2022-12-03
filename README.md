@@ -16,7 +16,27 @@ _Los ejercicios fueron extraidos de plataformas como LeetCode, CodeForces, AtCod
 ¿Qué es un Árbol Binario Completo?
 Un árbol binario completo es aquel donde todo sus nodos terminales  u hojas tiene la misma altura, además que en todos sus niveles, (a excepción del último nivel) están completamente llenos, es decir, tiene sus 2 hijos nodo, un ejemplo de un árbol binario completo es el siguiente:
 
-[!1.png]([![1.png](https://i.postimg.cc/htMS8MCZ/1.png)](https://postimg.cc/bZDcp0f1))
+[![1.png](https://i.postimg.cc/htMS8MCZ/1.png)](https://postimg.cc/bZDcp0f1)
+
+Es importante destacar su peculiar característica es que ademas tener todos sus niveles completos, excepción de ultimo,  este último nivel también debe tener por lo menos, un nodo completo como la imagen anterior, es decir, tenga 2 hijos (sub izquierdo – sobre derecho), la siguiente ilustración, es un árbol que no es un árbol binario completo.
+
+[![2.png](https://i.postimg.cc/Qx25GNhZ/2.png)](https://postimg.cc/YhxjQHvd)
+
+La anterior gráfica, no se puede considerar como árbol binario porque el nodo 5 no está completo, solo tiene 1 hijo y es el sub nodo derecho 9.
+
+Dado una clase CBT Inserter   se debe insertar un nuevo nodo al árbol binario completo con la finalidad que siempre vele por que se cumpla dicha característica
+
+A continuación se ve gráficamente el flujo de trabajo para el siguiente caso de Prueba:
+["CBTInserter", "insert", "insert", "get_root"]
+[[[1, 2]], [3], [4], []]
+Recalquemos la definición de los siguientes métodos:
+
+	CBT Inserter(TreeNode root) : Arranca la estructura de datos con la raiz  de arbol binario completo
+	TreeNode getroot(): Retorna el nodo raíz del árbol completo
+
+[![3.png](https://i.postimg.cc/0jL6sZg0/3.png)](https://postimg.cc/0K05GYyz)
+
+[![4.png](https://i.postimg.cc/fLPyc5bQ/4.png)](https://postimg.cc/gXvGdVRg)
 
 
 * <b> Binary Tree Inorder Traversal </b>
@@ -35,6 +55,35 @@ Un árbol binario completo es aquel donde todo sus nodos terminales  u hojas tie
 
 
 * <b> Find if Path Exists in Graph </b>
+Este problema nos daba como entrada un arreglos de arreglos donde estos últimos contienen parejas de números las cuales serán nuestros nodos, contaremos con un nodo inicio y un nodo destino los cuales serán números; teniendo en cuenta cuenta que nuestro inicio será 0 y nuestro destino será cualquier número del array que mayor a 0, donde secuencialmente tendremos que seguir un camino desde nuestro inicio hasta el destino, por ejemplo:
+
+[![1.png](https://i.postimg.cc/6pT90nD9/1.png)](https://postimg.cc/rDXXy0Vb)
+
+tenemos un grafo tal que: (0 → 1),(1 →2), (2 → 0)
+teniendo como a 0 como nuestro inicio y 2 como nuestro destino 
+vemos que tenemos 2 posibles caminos: 0 → 1 → 2 y 0→ 2
+por lo cual nuestra respuesta será: TRUE
+
+[![2.png](https://i.postimg.cc/2SqDvmZy/2.png)](https://postimg.cc/rDL3XBg2)
+
+como podemos ver tenemos un grafo tal que: [0 → 1],[0 → 2],[3 →  5],
+[5 →  4],[4 → 3].
+teniendo inició = 0 y destino = 5 
+vemos que no hay un camino por lo tanto nuestra respuesta será: FALSE
+
+[![3.png](https://i.postimg.cc/tTqv3tMk/3.png)](https://postimg.cc/XZPg3F3B)
+
+para resolver este problema hice uso del algoritmo DFS(Deepth First Search ) el cual recorre un grafo de manera recursiva, marcando los nodos ya visitados y asi permitiendo dar  con un camino si existe tal 
+
+vemos que: (0 → 1)(1 → 2)(2 → 3)(3 → 3)(0 → 1)(0 → 2)(2→ 0)(2 → 0)(0 → 1)(0 → 1)
+
+vemos que si el nodo tiene el color verde es que aun no ha sido visitado
+si está en rojo es nuestro nodo actual 
+si esta en naranja esta en la pila de recursión, por ende se marca como nodo visitado 
+
+lo que hace la solución en pocas palabras es recorrer el grafo de manera recursiva mintra en una lista guardamos los nodos visitados, así tenemos que este algoritmo seguirá iterando mientras no encontremos el destino o terminemos dicho grafo.
+
+![ezgif com-gif-maker61](https://user-images.githubusercontent.com/62295706/205413188-f36aebfe-3bf0-4883-9560-3306e215414c.gif)
 
 
 * <b> Relative Ranks </b>
