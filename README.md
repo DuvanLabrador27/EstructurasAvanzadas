@@ -56,8 +56,8 @@ Recalquemos la definición de los siguientes métodos:
 
 _Se anexa el metodo utilizado en VSCODE y caso de prueba aceptado:_
 <p align="center">
- <img src="https://github.com/DuvanLabrador27/OrdenarEnterosPorPotencia/blob/main/img/code2.png" width="500" height="700" margin-right: 20px><br>
- <img src="https://github.com/DuvanLabrador27/OrdenarEnterosPorPotencia/blob/main/img/caso2.png" width="500" height="350" margin-right: 20px>
+ <img src="https://github.com/DuvanLabrador27/EstructurasAvanzadas/blob/main/img/code.png" width="500" height="700" margin-right: 20px><br>
+ 
 </p>
 
 
