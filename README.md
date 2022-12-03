@@ -65,17 +65,17 @@ _Las herramientas utilizadas para el desarrollo del trabajo fueron:_
 
 ## Link Documentacion
 _Puedes visualizar la documentacion en el siguiente enlace:_
-* [Estructuras de Datos Avanzadas]()
+* [Estructuras de Datos Avanzadas](https://docs.google.com/document/d/1Ma7m8LJi-to-mIbwQUqiZn7nPVZ15DTNiw-7SEFUoU4/edit?usp=sharing)
 
 ## Autores
-* CARLOS DUVAN LABRADOR H - 1151808
-* JUAN DIEGO CELIS BLANCO - 1151876
-* MARLON STIVEN PRADO R   - 1151914
-* DOUGLAS ARLEY ALVAREZ O - 1151923
-* SAID FERNANDO LOPEZ G   - 1151925
-*
-*
-*
+* CARLOS DUVAN LABRADOR H        - 1151808
+* JUAN DIEGO CELIS BLANCO        - 1151876
+* MARLON STIVEN PRADO R          - 1151914
+* DOUGLAS ARLEY ALVAREZ O        - 1151923
+* SAID FERNANDO LOPEZ G          - 1151925
+* FREDDY SEBASTIAN CHIA VERA     - 1151494
+* JUAN DIEGO BUITRAGO MARQUEZ    - 1151688
+* JUAN DAVID CONTRERAS PABÓN     - 1151668
 
 
 ## Conclusiones
