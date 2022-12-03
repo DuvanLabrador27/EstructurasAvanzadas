@@ -52,7 +52,7 @@ Recalquemos la definición de los siguientes métodos:
 
 -Restricciones:<br>
 1. Debe estar en el rango [1,10^4]<br>
-<b>SOLUCIÓN EN LEETCODE</b>
+##SOLUCIÓN EN LEETCODE
 
 _Se anexa el metodo utilizado en VSCODE y caso de prueba aceptado:_
 <p align="center">
