@@ -149,7 +149,7 @@ Solucion LeetCode:
 
 [![2.jpg](https://i.postimg.cc/FFBCgnf1/2.jpg)](https://postimg.cc/mh7STjyG)
 																				 
-														 
+[![4.png](https://i.postimg.cc/rsb2WV49/4.png)](https://postimg.cc/Pvm7nk2L)														 
 														 
 * <b> Find if Path Exists in Graph </b>
 Este problema nos daba como entrada un arreglos de arreglos donde estos últimos contienen parejas de números las cuales serán nuestros nodos, contaremos con un nodo inicio y un nodo destino los cuales serán números; teniendo en cuenta cuenta que nuestro inicio será 0 y nuestro destino será cualquier número del array que mayor a 0, donde secuencialmente tendremos que seguir un camino desde nuestro inicio hasta el destino, por ejemplo:
