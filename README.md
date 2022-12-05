@@ -185,6 +185,30 @@ lo que hace la solución en pocas palabras es recorrer el grafo de manera recurs
 
 * <b> Relative Ranks </b>
 
+El ejercicio consta de una competición, la cual de acuerdo al orden que se registre o se dé, este se va asignando a su debido Ranking.
+
+Solución: 
+
+![codigo](https://user-images.githubusercontent.com/101369022/205574329-88160258-2bd9-452f-a461-42d175c1e452.png)
+
+
+
+Explicación:
+
+Principalmente lo que se realiza en el código, de cierta manera se guardan los números y el índice. De tal manera que ordene los resultados y arroje un orden de posiciones y su respectiva premiación. 
+
+El tamaño del arreglo puede ser mayor o igual a 1 de tal manera que pueden haber 100 competidores y transformará a un String el cual marcará el de mayor puntaje ( Medalla de Oro, Plata y Bronce). Lo demás lo pondrá en Enteros con su respectivo orden.
+Entonces, se explicará los casos de prueba:
+
+
+
+![Casos](https://user-images.githubusercontent.com/101369022/205574376-de9c6465-8f50-4519-9605-65b8b9df7ba2.png)
+
+
+
+![GRAFICA](https://user-images.githubusercontent.com/101369022/205574768-045448cc-c1db-45fb-94c8-4c32b28196cb.png)
+
+
 
 * <b> Heap Operations </b>
 
