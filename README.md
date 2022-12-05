@@ -147,7 +147,7 @@ targetnode es un nodo del original árbol y no lo es null.
 
 Solucion LeetCode:
 
-[![1.png](https://i.postimg.cc/Jn3f5zx3/1.png)](https://postimg.cc/G82gcrZ9)
+[![2.jpg](https://i.postimg.cc/FFBCgnf1/2.jpg)](https://postimg.cc/mh7STjyG)
 																				 
 														 
 														 
