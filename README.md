@@ -245,13 +245,14 @@ Entonces, se explicará los casos de prueba:
 * <b> Heap Operations </b>
 
 [![aceptado.png](https://i.postimg.cc/mZ01P1Py/01.png)](https://postimg.cc/Z0x5gRFW)
-<p>
+
         Este ejercicio maneja los montones binarios, que son un caso particular y sencillo de la estructura de datos
         Montículo, y está basada en un árbol binario balanceado, que puede verse como un árbol binario con dos
         restricciones adicionales: Propiedad de montículo.
         En cualquier momento el montón contiene varios números enteros (posiblemente ninguno), algunos de ellos pueden
         ser iguales.
-
+														 
+														 
         <br>
         <b>COLA DE PRIORIDAD USANDO EL MONTÓN BINARIO</b><br>
 
@@ -270,7 +271,8 @@ Entonces, se explicará los casos de prueba:
         De manera similar, en un montón binario máximo , la clave en la raíz debe ser la máxima entre todas las claves
         presentes en el montón binario. La misma propiedad debe ser verdadera de forma recursiva para todos los nodos
         del árbol binario.
-        <br>
+     
+														 
         <b>Explicación</b>
         La función que realiza este código es completar el número de instrucciones manteniendo la coherencia
         secuencialmente, de modo que no falte ninguna instrucción impidiendo la ejecución de todas las instrucciones.
@@ -281,6 +283,7 @@ Entonces, se explicará los casos de prueba:
         descrito en la declaración. Todos los números en la entrada son números enteros que no excedan 10^9 por su valor
         absoluto.
 
+														 
         output
         La primera línea de la salida debe contener un solo entero m : el número mínimo posible de registros en la
         secuencia modificada y completa de operaciones.
