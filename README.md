@@ -310,12 +310,8 @@ Ejemplo #2
 </table>
 														 
 Proceso:
-<video>
-  <source src="https://youtu.be/qHxUeeQkKO8" type="video/mp4">
-</video>
-https://youtu.be/qHxUeeQkKO8 
-														 
-														 
+
+Video: https://youtu.be/qHxUeeQkKO8
 [![case.png](https://i.postimg.cc/KvBkBcLS/02.png)](https://postimg.cc/xcj1S2tt)
 
 	
