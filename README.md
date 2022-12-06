@@ -242,6 +242,7 @@ Entonces, se explicará los casos de prueba:
 
 
 
+														 
 * <b> Heap Operations </b>
 														 
 														 
@@ -309,6 +310,7 @@ Ejemplo #2
 </table>
 														 
 Proceso:
+<iframe width="699" height="393" src="https://www.youtube.com/embed/qHxUeeQkKO8" title="Min Heap Caso" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 https://youtu.be/qHxUeeQkKO8 
 														 
 														 
@@ -363,6 +365,7 @@ El caso de desborde es admitido admitiendo números son números enteros que exc
 [![case.png](https://i.postimg.cc/HxtMVRWM/cod.png)](https://postimg.cc/CBz52vqM)									 
 														 
 
+															 
 * <b> Count Distinct Integers </b>
 Este problema narra que dado un número de n donde n es la cantidad de un conjunto de números, se debe imprimir la cantidad de números distintos del conjunto de número de entrada, es decir, se debe enviar como salida el conteo de números distintos dentro de un conjunto de datos.
 
