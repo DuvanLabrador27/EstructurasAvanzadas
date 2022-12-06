@@ -327,10 +327,10 @@ El caso de desborde #1 es admitido en el caso de n superar el número de instruc
         </tr>
         <tr>
             <td>
-		[![case.png](https://i.postimg.cc/W1GFzx17/03.png)](https://postimg.cc/z3kWRQF6)		 
+		<a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/W1GFzx17/03.png" alt="03"/></a>		 
             </td>
             <td>
-               [![case.png](https://postimg.cc/sM2D06SB)](https://postimg.cc/xc515DkD)
+               <a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/Bn9PqJ46/04.png" alt="04"/></a>
             </td>
         </tr>
 </table>
@@ -349,10 +349,10 @@ El caso de desborde es admitido admitiendo números son números enteros que exc
         </tr>
         <tr>
             <td>
-		[![case.png](https://i.postimg.cc/D0cGDD46/06.png)](https://postimg.cc/H8Vj8628)		 
+		<a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/D0cGDD46/06.png" alt="06"/></a>		 
             </td>
             <td>
-               [![case.png](https://i.postimg.cc/J73jGyYX/07.png)](https://postimg.cc/pyTmSdHV)
+               <a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/J73jGyYX/07.png" alt="07"/></a>
             </td>
         </tr>
 </table>														 
