@@ -16,11 +16,11 @@ _Los ejercicios fueron extraidos de plataformas como LeetCode, CodeForces, AtCod
 ¿Qué es un Árbol Binario Completo?
 Un árbol binario completo es aquel donde todo sus nodos terminales  u hojas tiene la misma altura, además que en todos sus niveles, (a excepción del último nivel) están completamente llenos, es decir, tiene sus 2 hijos nodo, un ejemplo de un árbol binario completo es el siguiente:
 
-[![1.png](https://i.postimg.cc/htMS8MCZ/1.png)](https://postimg.cc/bZDcp0f1)
+[![1.png](https://i.postimg.cc/XYwWNcpv/1.png)](https://postimg.cc/WdbCXZmR)
 
 Es importante destacar su peculiar característica es que ademas tener todos sus niveles completos, excepción de ultimo,  este último nivel también debe tener por lo menos, un nodo completo como la imagen anterior, es decir, tenga 2 hijos (sub izquierdo – sobre derecho), la siguiente ilustración, es un árbol que no es un árbol binario completo.
 
-[![2.png](https://i.postimg.cc/Qx25GNhZ/2.png)](https://postimg.cc/YhxjQHvd)
+[![2.png](https://i.postimg.cc/prhNwKwR/2.png)](https://postimg.cc/D4TYs4fM)
 
 La anterior gráfica, no se puede considerar como árbol binario porque el nodo 5 no está completo, solo tiene 1 hijo y es el sub nodo derecho 9.
 
@@ -99,6 +99,11 @@ Devuelve una lista de las etiquetas raíz de todos los MHT . Puede devolver la r
 
 La altura de un árbol con raíces es el número de aristas en el camino descendente más largo entre la raíz y una hoja.
 
+[![1.png](https://i.postimg.cc/x1t2bj3r/1.png)](https://postimg.cc/Sn25BhPV)	
+		
+[![2.png](https://i.postimg.cc/LswGzJqW/2.png)](https://postimg.cc/Jy3T8453)		
+												
+														 
 Restricciones: 
 
 1 <= n <= 2 * 104
@@ -125,11 +130,7 @@ Ejemplo:
 [![2.png](https://i.postimg.cc/VsTD7bZY/2.png)](https://postimg.cc/4n66ynTM)
 [![3.png](https://i.postimg.cc/nzrG2Hvj/3.png)](https://postimg.cc/ygqRYCps)	
 														 
-														 
-														 
-														 
-														 
-
+						
 * <b> Find a Corresponding Node of a Binary Tree in a Clone of That Tree </b>
 
 Descripción:
@@ -141,16 +142,28 @@ Tenga en cuenta que no puede cambiar ninguno de los dos árboles o el target nod
 
 Restricciones:
 
-El número de nodos en tree está en el rango .[1, 104]
+El número de nodos en tree está en el rango [1, 104].
 Los valores de los nodos de tree son únicos.
 targetnode es un nodo del original árbol y no lo es null.
 
 Solucion LeetCode:
 
 [![2.jpg](https://i.postimg.cc/FFBCgnf1/2.jpg)](https://postimg.cc/mh7STjyG)
-																				 
-[![4.png](https://i.postimg.cc/rsb2WV49/4.png)](https://postimg.cc/Pvm7nk2L)														 
+	
+[![4.png](https://i.postimg.cc/rsb2WV49/4.png)](https://postimg.cc/Pvm7nk2L)
 														 
+Explicación: 
+Para realizar la explicación de este ejercicio, vamos a usar el siguiente árbol 
+(Árbol original):
+
+[![1.png](https://i.postimg.cc/qvY1F9kh/1.png)](https://postimg.cc/k2QN6YRq)
+														 
+nuestro objetivo será encontrar el elemento [8]:								
+														 
+[![2.png](https://i.postimg.cc/sDLPf7bb/2.png)](https://postimg.cc/rKSRQ0V9)		
+[![3.png](https://i.postimg.cc/28gvNmZD/3.png)](https://postimg.cc/MvbX1C5P)		
+[![4.png](https://i.postimg.cc/rpNt4rYV/4.png)](https://postimg.cc/7Cb68fkd)
+											
 * <b> Find if Path Exists in Graph </b>
 Este problema nos daba como entrada un arreglos de arreglos donde estos últimos contienen parejas de números las cuales serán nuestros nodos, contaremos con un nodo inicio y un nodo destino los cuales serán números; teniendo en cuenta cuenta que nuestro inicio será 0 y nuestro destino será cualquier número del array que mayor a 0, donde secuencialmente tendremos que seguir un camino desde nuestro inicio hasta el destino, por ejemplo:
 
