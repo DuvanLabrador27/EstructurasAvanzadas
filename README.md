@@ -300,10 +300,10 @@ Ejemplo #2
         </tr>
         <tr>
             <td>
-		[![case.png](https://i.postimg.cc/pVwB3bhW/Screenshot-3.png)](https://postimg.cc/z3kWRQF6)		 
+		<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/pVwB3bhW/Screenshot-3.png' border='0' alt='Screenshot-3'/></a>	
             </td>
             <td>
-               [![case.png](https://i.postimg.cc/MZMDsKG3/Screenshot-2.png)](https://postimg.cc/Sj4CR4Cc)
+               <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/MZMDsKG3/Screenshot-2.png' border='0' alt='Screenshot-2'/></a>
             </td>
         </tr>
 </table>
