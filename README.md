@@ -310,7 +310,9 @@ Ejemplo #2
 </table>
 														 
 Proceso:
-<iframe width="699" height="393" src="https://www.youtube.com/embed/qHxUeeQkKO8" title="Min Heap Caso" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<video>
+  <source src="https://youtu.be/qHxUeeQkKO8" type="video/mp4">
+</video>
 https://youtu.be/qHxUeeQkKO8 
 														 
 														 
