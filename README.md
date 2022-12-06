@@ -244,8 +244,8 @@ Entonces, se explicará los casos de prueba:
 
 * <b> Heap Operations </b>
 ![Aceptado](https://imgur.com/EAG9q4V)
-														 [img]https://i.imgur.com/EAG9q4V.png[/img]
-												 [Imgur](https://imgur.com/EAG9q4V)
+![img]https://i.imgur.com/EAG9q4V.png[/img]
+![Imgur](https://imgur.com/EAG9q4V)
 														 
 													 
 
