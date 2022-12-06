@@ -106,6 +106,7 @@ Output: false<br>
  <img src="https://github.com/DuvanLabrador27/EstructurasAvanzadas/blob/main/img/c2.png" width="500" height="700" margin-right: 20px><br>
  
 </p>
+														 
 
 * <b> Minimum Height Trees </b>
 
@@ -242,6 +243,10 @@ Entonces, se explicará los casos de prueba:
 
 
 * <b> Heap Operations </b>
+![Aceptado](https://imgur.com/EAG9q4V)
+												 
+														 
+													 
 
 
 * <b> Count Distinct Integers </b>
