@@ -243,6 +243,8 @@ Entonces, se explicará los casos de prueba:
 
 
 * <b> Heap Operations </b>
+														 
+														 
 [![aceptado.png](https://i.postimg.cc/mZ01P1Py/01.png)](https://postimg.cc/Z0x5gRFW)
 														 
 														 
@@ -252,11 +254,66 @@ En cualquier momento el montón contiene varios números enteros (posiblemente n
 
 <b>COLA DE PRIORIDAD USANDO EL MONTÓN BINARIO</b><br>
 Priority Queue es una extensión de la cola con las siguientes propiedades: 
-Cada elemento tiene una prioridad asociada.
-Un elemento con alta prioridad se quita de la cola antes que un elemento con baja prioridad.
-Si dos elementos tienen la misma prioridad, se sirven según su orden en la cola.
+- Cada elemento tiene una prioridad asociada.
+- Un elemento con alta prioridad se quita de la cola antes que un elemento con baja prioridad.
+- Si dos elementos tienen la misma prioridad, se sirven según su orden en la cola.
 														 
+Un montón binario es un árbol binario con las siguientes propiedades:  
+- Es un árbol completo . Esta propiedad de Binary Heap los hace adecuados para ser almacenados en una matriz .
+- Un montón binario es Min Heap o Max Heap .
+- En un montón binario mínimo , la clave en la raíz debe ser mínima entre todas las claves presentes en el montón binario. La misma propiedad debe ser verdadera de forma recursiva para todos los nodos del árbol binario .
+- De manera similar, en un montón binario máximo , la clave en la raíz debe ser la máxima entre todas las claves presentes en el montón binario. La misma propiedad debe ser verdadera de forma recursiva para todos los nodos del árbol binario.
 
+
+<b>Explicación</b><br>
+La función que realiza este código es completar el número de instrucciones manteniendo la coherencia secuencialmente, de modo que no falte ninguna instrucción impidiendo la ejecución de todas las instrucciones.
+	
+														 
+input 
+la primera línea contiene un número entero n ( 1 ≤  n  ≤ 100 000 )
+Las siguientes n líneas son las instrucciones a verificar en el orden en que se aplican. Se utiliza el formato descrito en la declaración. Todos los números en la entrada son números enteros que no excedan 10^9 por su valor absoluto.
+
+														 
+output
+La primera línea de la salida debe contener un solo entero m  : el número mínimo posible de registros en la secuencia modificada y completa de operaciones.
+Las próximas líneas deben contener la secuencia corregida de registros siguiendo el formato de la entrada (descrito en la declaración), uno por línea y en el orden en que se aplican. Todos los números en la salida deben ser números enteros que no excedan 10^9 por su valor absoluto.
+
+														 
+														 
+<b>Casos:</b><br>														 
+Caso normal
+Ejemplo #1:
+
+- que se cumplan los parámetros de entrada
+[![case.png](https://i.postimg.cc/DfWbfPwz/Screenshot-1.png)](https://postimg.cc/Z0x5gRFW)
+														 
+														 
+														 
+<table>
+        <tr>
+            <th>Input</th>
+            <th>Output</th>
+        </tr>
+        <tr>
+            <td>2
+                insert 3
+                getMin 4
+            </td>
+            <td>
+                4
+                insert 3
+                removeMin
+                insert 4
+                getMin 4
+
+            </td>
+        </tr>
+    </table>														 
+														 
+														 
+														 
+														 
+														 
 														 
 														 
 													 
