@@ -244,7 +244,7 @@ Entonces, se explicará los casos de prueba:
 
 * <b> Heap Operations </b>
 
-[![01.png](https://i.postimg.cc/mZ01P1Py/01.png)](https://postimg.cc/Z0x5gRFW)
+[![aceptado.png](https://i.postimg.cc/mZ01P1Py/01.png)](https://postimg.cc/Z0x5gRFW)
 							 
 													 
 
