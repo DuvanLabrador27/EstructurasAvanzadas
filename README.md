@@ -312,6 +312,8 @@ Ejemplo #2
 Proceso:
 
 Video: https://youtu.be/qHxUeeQkKO8
+					
+														 
 [![case.png](https://i.postimg.cc/KvBkBcLS/02.png)](https://postimg.cc/xcj1S2tt)
 
 	
