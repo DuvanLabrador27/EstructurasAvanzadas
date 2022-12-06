@@ -40,8 +40,26 @@ Recalquemos la definición de los siguientes métodos:
 
 
 * <b> Binary Tree Inorder Traversal </b>
+-Descripción: Dada la root de un árbol binario, devuelve el recorrido en inorden de los valores de sus nodos.
 
+[![1.png](https://i.postimg.cc/QCcvrTK1/1.png)](https://postimg.cc/PvrSWN45)
 
+-Restricciones:
+El número de nodos en el árbol está en el rango [0, 100].
+-100 <= Node.val <= 100
+
+-Solución: 
+A diferencia de las estructuras de datos lineales (matriz, lista enlazada, colas, pilas,
+etc.) que solo tienen una forma lógica de atravesarlos, los árboles se pueden recorrer de diferentes maneras.
+ 
+En el problema, se menciona claramente que tenemos que hacer el recorrido a través de la forma Inorder .
+Primero entendamos qué es Inorder .
+1. Atraviesa el subarbol izquierdo
+2. atraviesa la raiz
+3. atraviesa el subarbol derecho.
+
+Solución en LEETCODE:
+[![2.png](https://i.postimg.cc/P5ff2t02/2.png)](https://postimg.cc/1fTZzZmq)
 
 * <b> Validate Binary Search Tree </b><br>
 -Para el desarrollo de este ejercicio debemos tener en cuenta que un árbol(BST) es válido si: 
