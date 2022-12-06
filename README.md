@@ -289,35 +289,77 @@ Ejemplo #1:
 														 
 														 
 														 
+En el primer caso, después de insertar el número 3 en el montón, el número mínimo es 3. Para que el resultado del primer getMin sea igual a 4, primero se debe eliminar el número 3 del montón y luego agregar el número 4 al montón.
+														 
+														 
+Ejemplo #2
 <table>
         <tr>
             <th>Input</th>
             <th>Output</th>
         </tr>
         <tr>
-            <td>2
-                insert 3
-                getMin 4
+            <td>
+		[![case.png](https://i.postimg.cc/pVwB3bhW/Screenshot-3.png)](https://postimg.cc/z3kWRQF6)		 
             </td>
             <td>
-                4
-                insert 3
-                removeMin
-                insert 4
-                getMin 4
+               [![case.png](https://i.postimg.cc/MZMDsKG3/Screenshot-2.png)](https://postimg.cc/Sj4CR4Cc)
+            </td>
+        </tr>
+</table>
+														 
+Proceso:
+https://youtu.be/qHxUeeQkKO8 
+[![case.png](https://i.postimg.cc/KvBkBcLS/02.png)](https://postimg.cc/xcj1S2tt)
 
+	
+														 
+<b>Casos Desborde</b><br>
+Caso desborde #1
+El caso de desborde #1 es admitido en el caso de n superar el número de instrucciones establecidas que es de 1 ≤  n  ≤ 100 000.
+														 
+<table>
+        <tr>
+            <th>Input</th>
+            <th>Output</th>
+        </tr>
+        <tr>
+            <td>
+		[![case.png](https://i.postimg.cc/W1GFzx17/03.png)](https://postimg.cc/z3kWRQF6)		 
+            </td>
+            <td>
+               [![case.png](https://postimg.cc/sM2D06SB)](https://postimg.cc/xc515DkD)
+            </td>
+        </tr>
+</table>
+
+[![case.png](https://i.postimg.cc/QNcH0RpZ/05.png)](https://postimg.cc/qgMJ7Db1)
+
+														 
+
+<b>Caso desborde #2</b><br>														 
+El caso de desborde es admitido admitiendo números son números enteros que excedan 10^9= 1.000.000.000 por su valor absoluto.
+
+<table>
+        <tr>
+            <th>Input</th>
+            <th>Output</th>
+        </tr>
+        <tr>
+            <td>
+		[![case.png](https://i.postimg.cc/D0cGDD46/06.png)](https://postimg.cc/H8Vj8628)		 
+            </td>
+            <td>
+               [![case.png](https://i.postimg.cc/J73jGyYX/07.png)](https://postimg.cc/pyTmSdHV)
             </td>
         </tr>
 </table>														 
 														 
-														 
-														 
-														 
-														 
-														 
-														 
-													 
 
+<b>Codigo</b><br>														 
+														 
+[![case.png](https://i.postimg.cc/HxtMVRWM/cod.png)](https://postimg.cc/CBz52vqM)									 
+														 
 
 * <b> Count Distinct Integers </b>
 Este problema narra que dado un número de n donde n es la cantidad de un conjunto de números, se debe imprimir la cantidad de números distintos del conjunto de número de entrada, es decir, se debe enviar como salida el conteo de números distintos dentro de un conjunto de datos.
