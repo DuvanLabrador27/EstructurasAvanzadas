@@ -308,7 +308,7 @@ Ejemplo #1:
 
             </td>
         </tr>
-    </table>														 
+</table>														 
 														 
 														 
 														 
