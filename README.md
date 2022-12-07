@@ -449,6 +449,8 @@ _Puedes visualizar la documentacion en el siguiente enlace:_
 
 
 ## Conclusiones
+-El tener claros los conceptos y la información a trabajar, además de generar un análisis exhaustivo de las necesidades que debe cumplir los ejericicios y por qué medio se van a cumplir, son características fundamentales previo a la creación de código, si no se tiene claro que se va a realizar y que se ve gráficamente, no se puede tener claro cómo se va a ejecutar.
+
 
 
 
