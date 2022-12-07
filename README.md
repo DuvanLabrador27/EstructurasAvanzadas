@@ -435,7 +435,7 @@ _Las herramientas utilizadas para el desarrollo del trabajo fueron:_
 
 ## LinkDocumentacion
 _Puedes visualizar la documentacion en el siguiente enlace:_
-* [Estructuras de Datos Avanzadas](https://docs.google.com/document/d/1Ma7m8LJi-to-mIbwQUqiZn7nPVZ15DTNiw-7SEFUoU4/edit?usp=sharing)
+* [Estructuras de Datos Avanzadas](https://drive.google.com/file/d/1U7MBuLDSsiCenIQ1NFury-s4lbEC6bdO/view?usp=sharing)
 
 ## Autores
 * CARLOS DUVAN LABRADOR H        - 1151808
