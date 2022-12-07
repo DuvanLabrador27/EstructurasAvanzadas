@@ -393,7 +393,7 @@ HashSet no dispone de un criterio de ordenación para los valores almacenados
 Usando HashSet solo basta con preguntar cada uno de los elementos de la lista o entrada de datos que nos llegue para que únicamente almacene aquellos datos que no sean repetidos dentro de la colección
 
 
-* * Código de Java respecto a la solución del Ejercicio
+** Código de Java respecto a la solución del Ejercicio
 
 [![1.jpg](https://i.postimg.cc/MKpD9pt6/1.jpg)](https://postimg.cc/qgWyR09S)
 
